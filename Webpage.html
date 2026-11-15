@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Information Technology Department - K.K. Wagh Institute of Engineering Education & Research, Nashik">
+    <title>IT Department | K.K. Wagh Institute</title>
+
+    <style>
+        /* General Styling */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f7fb;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        header h1 {
+            font-size: 30px;
+        }
+
+        header p {
+            font-size: 16px;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #00509e;
+            padding: 12px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover,
+        nav a:focus {
+            color: #ffcc00;
+            text-decoration: underline;
+        }
+
+        /* Main Content */
+        main {
+            max-width: 1100px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        section {
+            background-color: white;
+            margin-bottom: 20px;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #003366;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #00509e;
+            padding-bottom: 8px;
+        }
+
+        h3 {
+            color: #00509e;
+            margin: 12px 0;
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+
+        ul {
+            margin-left: 25px;
+        }
+
+        /* Department Image */
+        .department-image {
+            width: 100%;
+            max-height: 350px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+
+        /* Faculty Cards */
+        .faculty-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .faculty-card {
+            background-color: #eaf3ff;
+            padding: 20px;
+            border-radius: 8px;
+            flex: 1 1 250px;
+            border-left: 4px solid #00509e;
+        }
+
+        /* Laboratory */
+        .lab-list li {
+            margin-bottom: 8px;
+        }
+
+        /* Multimedia */
+        iframe {
+            width: 100%;
+            max-width: 600px;
+            height: 315px;
+            border: 0;
+            border-radius: 8px;
+        }
+
+        /* Contact */
+        address {
+            font-style: normal;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer a {
+            color: #ffcc00;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 23px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px;
+                font-size: 14px;
+            }
+
+            main {
+                padding: 10px;
+            }
+
+            section {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Department of Information Technology</h1>
+        <p>K.K. Wagh Institute of Engineering Education & Research, Nashik</p>
+        <p><strong>Innovate | Learn | Lead</strong></p>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#vision">Vision & Mission</a>
+        <a href="#faculty">Faculty</a>
+        <a href="#labs">Laboratories</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Home Section -->
+        <section id="home">
+            <h2>Welcome to IT Department</h2>
+
+            <p>
+                Welcome to the Department of Information Technology.
+                Our department focuses on developing skilled engineers
+                with strong technical knowledge, practical experience,
+                and problem-solving abilities.
+            </p>
+
+            <figure>
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80"
+                    alt="Students working on computers in a technology laboratory" class="department-image">
+                <figcaption>Learning and innovation in Information Technology</figcaption>
+            </figure>
+
+            <p>
+                Explore our
+                <a href="#faculty">faculty members</a>,
+                <a href="#labs">laboratories</a>,
+                and academic activities.
+            </p>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>Department Overview</h2>
+
+            <p>
+                The Information Technology department provides quality
+                education in software development, networking, cloud
+                computing, artificial intelligence, and data science.
+            </p>
+
+            <h3>Our Highlights</h3>
+
+            <ul>
+                <li>Industry-oriented technical education</li>
+                <li>Experienced faculty members</li>
+                <li>Modern computing laboratories</li>
+                <li>Project-based learning</li>
+                <li>Technical workshops and seminars</li>
+            </ul>
+
+            <p>
+                Students are encouraged to participate in
+                <strong>hackathons</strong>,
+                <em>technical competitions</em>,
+                and research activities.
+            </p>
+        </section>
+
+        <!-- Vision and Mission Section -->
+        <section id="vision">
+            <h2>Vision and Mission</h2>
+
+            <h3>Vision</h3>
+            <p>
+                To develop competent Information Technology professionals
+                with technical excellence, innovation, and ethical values.
+            </p>
+
+            <h3>Mission</h3>
+            <ul>
+                <li>Provide quality technical education.</li>
+                <li>Promote innovation and research.</li>
+                <li>Develop industry-ready professionals.</li>
+                <li>Encourage teamwork and lifelong learning.</li>
+            </ul>
+        </section>
+
+        <!-- Faculty Section -->
+        <section id="faculty">
+            <h2>Our Faculty</h2>
+
+            <div class="faculty-container">
+
+                <article class="faculty-card">
+                    <h3>Head of Department</h3>
+                    <p><strong>Name:</strong> Faculty HOD</p>
+                    <p><strong>Qualification:</strong> Ph.D. / M.E.</p>
+                    <p><strong>Specialization:</strong> Information Technology</p>
+                </article>
+
+                <article class="faculty-card">
+                    <h3>Assistant Professor</h3>
+                    <p><strong>Name:</strong> Faculty Member 1</p>
+                    <p><strong>Qualification:</strong> M.E.</p>
+                    <p><strong>Specialization:</strong> Computer Networks</p>
+                </article>
+
+                <article class="faculty-card">
+                    <h3>Assistant Professor</h3>
+                    <p><strong>Name:</strong> Faculty Member 2</p>
+                    <p><strong>Qualification:</strong> M.Tech.</p>
+                    <p><strong>Specialization:</strong> Artificial Intelligence</p>
+                </article>
+
+            </div>
+
+            <p>
+                <small>Note: Replace sample faculty details with actual information.</small>
+            </p>
+        </section>
+
+        <!-- Laboratories Section -->
+        <section id="labs">
+            <h2>Laboratories</h2>
+
+            <p>
+                Our department provides laboratories equipped
+                for practical learning and software development.
+            </p>
+
+            <ol class="lab-list">
+                <li>Programming Laboratory</li>
+                <li>Database Management Laboratory</li>
+                <li>Web Technology Laboratory</li>
+                <li>Computer Networks Laboratory</li>
+                <li>Artificial Intelligence and Machine Learning Laboratory</li>
+            </ol>
+
+            <h3>Laboratory Facilities</h3>
+
+            <ul>
+                <li>High-performance computer systems</li>
+                <li>Internet connectivity</li>
+                <li>Development software and tools</li>
+                <li>Project development environment</li>
+            </ul>
+        </section>
+
+        <!-- Multimedia Section -->
+        <section id="multimedia">
+            <h2>Department Multimedia</h2>
+
+            <p>Learn more about technology through educational videos.</p>
+
+            <iframe src="https://www.youtube.com/embed/aircAruvnKk"
+                title="Introduction to Artificial Intelligence educational video" allowfullscreen>
+            </iframe>
+
+            <p>
+                Visit the
+                <a href="https://www.kkwagh.edu.in/" target="_blank" rel="noopener noreferrer">
+                    official K.K. Wagh Institute website
+                </a>
+                for more information.
+            </p>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Information</h2>
+
+            <address>
+                <p><strong>Department:</strong> Information Technology</p>
+                <p><strong>Institute:</strong> K.K. Wagh Institute of Engineering Education & Research</p>
+                <p><strong>Location:</strong> Nashik, Maharashtra, India</p>
+                <p>
+                    <strong>Email:</strong>
+                    <a href="mailto:info@kkwagh.edu.in">info@kkwagh.edu.in</a>
+                </p>
+                <p>
+                    <strong>Website:</strong>
+                    <a href="https://www.kkwagh.edu.in/" target="_blank" rel="noopener noreferrer">
+                        www.kkwagh.edu.in
+                    </a>
+                </p>
+            </address>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2026 Department of Information Technology</p>
+        <p>K.K. Wagh Institute of Engineering Education & Research, Nashik</p>
+        <p><a href="#home">Back to Top</a></p>
+    </footer>
+
+</body>
+
+</html>
